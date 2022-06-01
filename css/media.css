@@ -1,0 +1,141 @@
+@media screen and (max-width: 992px){
+    .nav__list a {
+        font-weight: 500;
+        font-size: 16px;
+        color: #263238;
+    }
+    .learn__title {
+        font-size: 48px;
+        line-height: 64px;
+    }
+    .learn__subtext {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .learn__button {
+        font-size: 24px;
+    }
+    .logo {
+    }
+    .logo__black {
+    }
+    .nav__button {
+    }
+    .learn {
+    }
+    .learn__text {
+    }
+    .learn__title {
+    }
+    .learn__subtext {
+    }
+    .learn__button {
+    }
+    .learn__img {
+    }
+    .skills {
+    }
+    .skills__title {
+    }
+    .title {
+    }
+    .skills__wraper {
+    }
+    .skills__item {
+    }
+    .speaking {
+    }
+    .skills__img {
+    }
+    .speaking__img {
+    }
+    .skills__text {
+    }
+    .skills__item__title {
+    }
+    .skills__item__subtext {
+    }
+    .skills__item__button {
+    }
+    .writing {
+    }
+    .reading {
+    }
+    .listening {
+    }
+    .about {
+    }
+    .about__wraper {
+    }
+    .about__text {
+    }
+    .about__title {
+    }
+    .about__subtext {
+    }
+    .about__info {
+    }
+    .about__info__item {
+    }
+    .about__number {
+    }
+    .about__numbertext {
+    }
+    .about__img {
+    }
+    .pricing {
+    }
+    .pricing__title {
+    }
+    .picing__wraper {
+    }
+    .pricing__item {
+    }
+    .pricing__img {
+    }
+    .pricing__text {
+    }
+    .pricing__item__title {
+    }
+    .pricing__subtext {
+    }
+    .pricing__price {
+    }
+    .study {
+    }
+    .contact {
+    }
+    .contact__wraper {
+    }
+    .contact__img {
+    }
+    .contact__text {
+    }
+    .contact__form {
+    }
+    .contact__title {
+    }
+    .contact__subtext {
+    }
+    .contact__mail {
+    }
+    .contact__button {
+    }
+    .footer__list {
+    }
+    .footer__item {
+    }
+    .logo__footer {
+    }
+    .dot__footer {
+    }
+}
+@media screen and (max-width: 768px){
+    
+}
+@media screen and (max-width: 575px){
+    
+}
+@media screen and (max-width: 320px){
+    
+}
