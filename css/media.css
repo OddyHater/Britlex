@@ -67,7 +67,7 @@
     .skills__item__button {
         align-self: center;
         font-size: 2em;
-        padding: 1em 4em;
+        padding: 1em 2.5em;
     }
     .speaking {
         grid-column-start: 1;
@@ -180,7 +180,7 @@
         align-items: center;
         gap: 5em;
     }
-    
+
     /*SKILLS*/
     .skills__wraper {
         grid-template-columns: 1fr;
