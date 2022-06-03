@@ -46,9 +46,6 @@ a {
 /* font-family: 'Poppins', sans-serif; */
 
 /*Технические стили*/
-html {
-
-}
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -63,15 +60,11 @@ body {
     font-size: 3.5em;
     color: #000000;
 }
-.menu {
-}
 .logo__black {
     color: black;
 }
 /*Технические стили*/
 
-.nav__menu {
-}
 .nav__list {
     display: flex;
     justify-content: center;
@@ -162,15 +155,12 @@ body {
 .skills__item {
     display: flex;
     justify-content: space-between;
-    padding: 3%;
+    padding: 1em;
     background-color: rgba(245, 245, 245, 1);
     border-radius: 10px;
 }
 .skills__img {
-    height: 250px;
-}
-.speaking__img {
-    height: 350px;
+    height: 17em;
 }
 .skills__img img {
     height: 100%;
@@ -198,7 +188,7 @@ body {
 .skills__item__button {
     background: #263238;
     border-radius: 5px;
-    max-width: 200px;
+    max-width: 9em;
     padding: 1em 0em;
     text-align: center;
     font-weight: 500;
@@ -229,44 +219,42 @@ body {
     grid-row-end: 3;
     flex-direction: row-reverse;
 }
-.listening__img {
-    width: 50%;
-}
-.listening__text {
+.listening__text__wraper {
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
-/*ABOUT*/
+.listening__img {
+    width: 50%;
+}
 
+/*ABOUT*/
 .about {
-    margin-bottom: 150px;
+    margin-bottom: 10em;
 }
 .about__wraper {
-    display: flex;
+    display: flex;    
     align-items: center;
     justify-content: space-between;
 }
-.about__title {
-    margin-bottom: 25px;
-}
-
 .about__img {
-    width: 50%;
-    height: 100%;
+    height: 45em;
 }
 .about__img img {
     width: 100%;
     height: 100%;
 }
 .about__text {
-    width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 .about__subtext {    
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.5em;
+    line-height: 1.5em;
     color: #8F95A5;
-    margin-bottom: 50px;
+    margin-bottom: 5.5em;
 }
 .about__info {
     display: flex;
@@ -279,35 +267,35 @@ body {
 }
 .about__number {    
     font-weight: 600;
-    font-size: 48px;
+    font-size: 3.5em;
     color: #2A3246;
 }
 .about__numbertext {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.5em;
     color: #8F95A5;
 }
 
 /*PRICING*/
 .pricing {
-    margin-bottom: 150px;
+    margin-bottom: 10em;
 }
 .pricing__title {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 1em;
 }
-.picing__wraper {
+.pricing__wraper {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 2.5em;
 }
 .pricing__item {
-    flex: 1 1 30%;
+    flex: 1;
     display: flex;
     flex-direction: column;
 }
 .pricing__img {
-    height: 300px;
+    height: 21em;
 }
 .pricing__img img {
     width: 100%;
@@ -321,99 +309,112 @@ body {
 }
 .pricing__item__title {    
     font-weight: 600;
-    font-size: 30px;
+    font-size: 2.1em;
     color: #263238;
-    margin-bottom: 20px;
+    margin-bottom: 1.5em;
 }
 .pricing__subtext {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.5em;
+    line-height: 1.5em;
     color: #8F95A5;
-    margin-bottom: 25px;
+    margin-bottom: 2.1em;
 }
 .pricing__price {
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 1.2em;
     color: #546269;
     background: #EEEEEE;
     border-radius: 5px;
-    max-width: 240px;
+    max-width: 17em;
     text-align: center;
 }
 .pricing__price span {
     font-weight: 400;
-    font-size: 30px;
+    font-size: 2.1em;
     color: #263238;
 }
+
+/*CONTACT US*/
 .contact {
-    margin-bottom: 150px;
+    margin-bottom: 10em;
 }
 .contact__wraper {
     display: flex;
 }
+.contact__title {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
 .contact__img {
-    flex: 1 1 40%;
+    height: 37em;
 }
 .contact__img img {
     height: 100%;
     width: 100%;
 }
 .contact__text {
-    flex: 1 1 60%;   
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 .contact__form {
-    height: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .contact__subtext {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;    
+    font-size: 1.5em;
+    line-height: 1.5em;    
     color: #8F95A5;
+    margin-bottom: 2.5em;
 }
 .contact__form form {
     display: flex;
-    gap: 25px;
+    gap: 2em;
     
 }
 .contact__mail {
     flex: 1 1 60%;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.4em;
     color: #8F95A5;   
-    padding: 26px 30px; 
+    padding: 1.5em 2em; 
     border-radius: 10px;
     border: 1px solid #8F95A5;
     border-radius: 10px;
 }
 .contact__button {
-    padding: 25px 80px;    
+    flex: 1;
+    padding: 1.5em 2em;    
     background: #263238;
     border-radius: 10px;    
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.4em;
     color: #FFFFFF;
 }
+
+/*FOOTER*/
 footer {
     max-width: 1390px;
     margin: 0 auto;
     height: 150px;
     border-top: 1px solid #C4C4C4;
+}
+.footer__wraper {
+    flex: 1;
     display: flex;
+    height: 100%;
 }
 .footer__list {
     display: flex;
-    width: 100%;
-    justify-content: center;
     align-items: center;
+    justify-content: flex-end;
+    width: 100%;
     gap: 5px;
 }
 .footer__item a {
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.7em;
     color: #8F95A5;
 }
 .dot__footer {
@@ -422,11 +423,14 @@ footer {
     border-radius: 50%;
     background-color: rgb(143, 149, 165);
 }
-.logo__footer {
+.footer__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-right: auto;
 }
-.logo__footer a {        
+.footer__logo a {        
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.5em;
     color: rgb(143, 149, 165);
     }

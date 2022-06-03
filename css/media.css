@@ -4,11 +4,221 @@
     }
 }
 @media screen and (max-width: 768px){
-    
+    body {
+        font-size: 9px;
+    }
 }
-@media screen and (max-width: 575px){
-    
+@media screen and (max-width: 576px){
+    body {
+        font-size: 7px;
+    }
+    .title {
+        font-size: 6em;
+    }
+    .nav__menu {
+        display: none;
+    }
+
+    /*LEARN*/
+    .learn {
+        flex-direction: column-reverse;
+    }
+    .learn__text {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .learn__title {
+        max-width: 100%;
+        margin-bottom: 1em;
+    }
+    .learn__subtext {
+        font-size: 2.5em;
+        margin-bottom: 1em;
+    }
+    .learn__button {
+        border-radius: 7px;
+        padding: 1em 5em;
+        margin-bottom: 7em;
+    }
+
+    /*SKILLS*/
+    .skills__wraper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 3em;
+    }
+    .skills__text {
+        justify-content: flex-start;
+    }
+    .skills__img {
+        height: 30em;
+    }
+    .skills__text {
+        flex: 1 1 40em;
+    }
+    .skills__item__title {
+        font-size: 3em;
+    }
+    .skills__item__subtext {
+        font-size: 2em;
+        line-height: 1.5em;
+    }
+    .skills__item__button {
+        align-self: center;
+        font-size: 2em;
+        padding: 1em 4em;
+    }
+    .speaking {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .reading {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .listening {
+        flex-direction: column;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    /*ABOUT*/
+    .about__wraper {
+        flex-direction: column-reverse;
+    }
+    .about__title {
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .about__subtext {
+        text-align: center;
+    }
+    .about__numbertext {
+        font-size: 2em;
+    }
+
+    /*PRICING*/
+    .pricing__wraper {
+        flex-direction: column;
+        gap: 5em;
+    }
+    .pricing__item {
+        align-items: center;
+    }
+    .pricing__img {
+        height: 45em;
+        margin-bottom: 3em;
+    }
+    .pricing__text {
+        text-align: center;
+    }
+    .pricing__item__title {
+        font-size: 4em;
+        margin-bottom: 1em;
+    }
+    .pricing__subtext {
+        font-size: 3em;
+    }
+    .pricing__price {
+        align-self: center;
+        font-size: 2em;
+        padding: 0 1.5em;
+    }
+
+    /*CONTACT*/
+    .contact__wraper {
+        flex-direction: column;
+    }
+    .contact__title{
+        margin-bottom: 1em;
+    }
+    .contact__img {
+        height: 50em;
+    }
+    .contact__text {
+        text-align: center;
+    }
+    .contact__form form{
+        flex-direction: column;
+    }
+    .contact__subtext {
+        font-size: 2.5em;
+    }
+    .contact__mail {
+        font-size: 2.5em;
+    }
+    .contact__button {
+        font-size: 2.5em;
+    }
+
+    /*FOOTER*/
+    .footer__wraper {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__logo{
+        margin: 0;
+    }
+    .footer__list {
+        justify-content: center;
+    }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 380px){
+    /*ABOUT*/
+    .about__subtext {
+        margin-bottom: 3em;
+    }
+    .about__info {
+        flex-direction: column;
+        align-items: center;
+        gap: 5em;
+    }
     
+    /*SKILLS*/
+    .skills__wraper {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr 1fr 1fr;
+        grid-gap: 3em;
+    }
+    .skills__text{
+        flex: 1 1 20em;
+    }
+    .skills__item {
+        justify-content: start;
+    }
+    .skills__item__button {
+        align-self: start;
+    }
+    .speaking {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .writing {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .reading {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .listening {
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
 }
