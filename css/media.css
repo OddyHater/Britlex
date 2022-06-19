@@ -30,32 +30,31 @@
     }
     .learn__title {
         max-width: 100%;
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
     .learn__subtext {
         font-size: 2.5em;
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
     .learn__button {
         border-radius: 7px;
-        padding: 1em 5em;
-        margin-bottom: 7em;
+        padding: 1rem 4rem;
     }
 
     /*SKILLS*/
     .skills__wraper {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr 1fr;
-        grid-gap: 3em;
+        grid-gap: 1rem;
     }
     .skills__text {
         justify-content: flex-start;
     }
     .skills__img {
-        height: 30em;
+        height: 11rem;
     }
     .skills__text {
-        flex: 1 1 40em;
+        flex: 1 1 20rem;
     }
     .skills__item__title {
         font-size: 3em;
@@ -67,7 +66,7 @@
     .skills__item__button {
         align-self: center;
         font-size: 2em;
-        padding: 1em 2.5em;
+        padding: 1rem 1.5rem;
     }
     .speaking {
         grid-column-start: 1;
@@ -95,7 +94,7 @@
     }
     .about__title {
         text-align: center;
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
     .about__subtext {
         text-align: center;
@@ -107,21 +106,20 @@
     /*PRICING*/
     .pricing__wraper {
         flex-direction: column;
-        gap: 5em;
+        gap: 5rem;
     }
     .pricing__item {
         align-items: center;
     }
     .pricing__img {
-        height: 45em;
-        margin-bottom: 3em;
+        height: 17rem;
     }
     .pricing__text {
         text-align: center;
     }
     .pricing__item__title {
         font-size: 4em;
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
     .pricing__subtext {
         font-size: 3em;
@@ -129,7 +127,7 @@
     .pricing__price {
         align-self: center;
         font-size: 2em;
-        padding: 0 1.5em;
+        padding: 0 1.5rem;
     }
 
     /*CONTACT*/
@@ -137,10 +135,10 @@
         flex-direction: column;
     }
     .contact__title{
-        margin-bottom: 1em;
+        margin-bottom: 1rem;
     }
     .contact__img {
-        height: 50em;
+        height: 16rem;
     }
     .contact__text {
         text-align: center;
@@ -171,14 +169,17 @@
     }
 }
 @media screen and (max-width: 380px){
+    .main__container {
+        padding: 0 1rem;
+    }
     /*ABOUT*/
     .about__subtext {
-        margin-bottom: 3em;
+        margin-bottom: 3rem;
     }
     .about__info {
         flex-direction: column;
         align-items: center;
-        gap: 5em;
+        gap: 1rem;
     }
 
     /*SKILLS*/
@@ -188,7 +189,7 @@
         grid-gap: 3em;
     }
     .skills__text{
-        flex: 1 1 20em;
+        flex: 1 1 10rem;
     }
     .skills__item {
         justify-content: start;

@@ -52,8 +52,8 @@ body {
 .main__container {
     max-width: 1340px;
     margin: 0 auto;
-    padding: 0px 2em;
-    margin-top: 4em;
+    padding: 0px 2rem;
+    margin-top: 4rem;
 }
 .title {
     font-weight: 600;
@@ -69,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.5em;
+    gap: 2.5rem;
     font-weight: 500;
     font-size: inherit;
     color: #263238;
@@ -94,14 +94,14 @@ body {
     color: #000000;
     border: 2px solid #263238;
     border-radius: 5px;
-    padding: 0.5em 1.5em;
+    padding: 0.5rem 1.5rem;
 }
 .learn {
     font-size: inherit;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 9em;    
+    margin-bottom: 5rem;    
 }
 .learn__text {
     width: 60%;
@@ -129,7 +129,7 @@ body {
     font-weight: 400;
     font-size: 2.5em;
     color: #FFFFFF;
-    padding: 0.5em 1em;    
+    padding: 0.5rem 1rem;    
 }
 .learn__img img {  
     width: 100%;
@@ -140,11 +140,11 @@ body {
 
 .skills {
     max-width: 100%;
-    margin-bottom: 9em;
+    margin-bottom: 5rem;
 }
 .skills__title {
     text-align: center;
-    margin-bottom: 1.5em;    
+    margin-bottom: 1.5rem;    
 }
 .skills__wraper {
     display: grid;
@@ -155,7 +155,7 @@ body {
 .skills__item {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 1rem;
     background-color: rgba(245, 245, 245, 1);
     border-radius: 10px;
 }
@@ -176,25 +176,25 @@ body {
     font-weight: 600;
     font-size: 2.14em;
     color: #263238;
-    margin-bottom: 0.5em;   
+    margin-bottom: 0.5rem;   
 }
 .skills__item__subtext {    
     font-weight: 400;
     font-size: 1.3em;
     line-height: 1.3em;
     color: #8F95A5;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
 }
 .skills__item__button {
     background: #263238;
     border-radius: 5px;
-    max-width: 9em;
-    padding: 1em 0em;
+    max-width: 9rem;
+    padding: 1rem 0rem;
     text-align: center;
     font-weight: 500;
     font-size: 1.3em;
     color: #FFFFFF;
-    margin-bottom: 0.5em; 
+    margin-bottom: 0.5rem; 
 }
 .speaking {
     grid-column-start: 1;
@@ -230,7 +230,7 @@ body {
 
 /*ABOUT*/
 .about {
-    margin-bottom: 10em;
+    margin-bottom: 5rem;
 }
 .about__wraper {
     display: flex;    
@@ -238,7 +238,7 @@ body {
     justify-content: space-between;
 }
 .about__img {
-    height: 45em;
+    height: 37em;
 }
 .about__img img {
     width: 100%;
@@ -254,7 +254,7 @@ body {
     font-size: 1.5em;
     line-height: 1.5em;
     color: #8F95A5;
-    margin-bottom: 5.5em;
+    margin-bottom: 2.5rem;
 }
 .about__info {
     display: flex;
@@ -278,7 +278,7 @@ body {
 
 /*PRICING*/
 .pricing {
-    margin-bottom: 10em;
+    margin-bottom: 6rem;
 }
 .pricing__title {
     text-align: center;
@@ -287,7 +287,7 @@ body {
 .pricing__wraper {
     display: flex;
     justify-content: space-between;
-    gap: 2.5em;
+    gap: 2.5rem;
 }
 .pricing__item {
     flex: 1;
@@ -311,21 +311,21 @@ body {
     font-weight: 600;
     font-size: 2.1em;
     color: #263238;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.5rem;
 }
 .pricing__subtext {
     font-weight: 400;
     font-size: 1.5em;
     line-height: 1.5em;
     color: #8F95A5;
-    margin-bottom: 2.1em;
+    margin-bottom: 2.1rem;
 }
 .pricing__price {
     font-size: 1.2em;
     color: #546269;
     background: #EEEEEE;
     border-radius: 5px;
-    max-width: 17em;
+    max-width: 17rem;
     text-align: center;
 }
 .pricing__price span {
@@ -336,13 +336,13 @@ body {
 
 /*CONTACT US*/
 .contact {
-    margin-bottom: 10em;
+    margin-bottom: 5rem;
 }
 .contact__wraper {
     display: flex;
 }
 .contact__title {
-    margin-bottom: 0.5em;
+    margin-bottom: 0.5rem;
     text-align: center;
 }
 .contact__img {
@@ -366,11 +366,11 @@ body {
     font-size: 1.5em;
     line-height: 1.5em;    
     color: #8F95A5;
-    margin-bottom: 2.5em;
+    margin-bottom: 2.5rem;
 }
 .contact__form form {
     display: flex;
-    gap: 2em;
+    gap: 2rem;
     
 }
 .contact__mail {
@@ -378,14 +378,14 @@ body {
     font-weight: 400;
     font-size: 1.4em;
     color: #8F95A5;   
-    padding: 1.5em 2em; 
+    padding: 1.5rem 2rem; 
     border-radius: 10px;
     border: 1px solid #8F95A5;
     border-radius: 10px;
 }
 .contact__button {
     flex: 1;
-    padding: 1.5em 2em;    
+    padding: 1.5rem 2rem;    
     background: #263238;
     border-radius: 10px;    
     font-weight: 500;
@@ -410,7 +410,7 @@ footer {
     align-items: center;
     justify-content: flex-end;
     width: 100%;
-    gap: 5px;
+    gap: 0.3rem;
 }
 .footer__item a {
     font-weight: 400;
