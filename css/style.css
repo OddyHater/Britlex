@@ -79,6 +79,9 @@ body {
     font-size: 1.3em;
     color: #263238;
 }
+.nav__list a:hover {
+    color: #2632388c;
+}
 .logo {
     margin-right: auto;    
 }
@@ -96,6 +99,7 @@ body {
     border-radius: 5px;
     padding: 0.5rem 1.5rem;
 }
+
 .learn {
     font-size: inherit;
     max-width: 100%;
@@ -130,6 +134,9 @@ body {
     font-size: 2.5em;
     color: #FFFFFF;
     padding: 0.5rem 1rem;    
+}
+.learn__button:hover {
+    background-color: #2632388c
 }
 .learn__img img {  
     width: 100%;
@@ -195,6 +202,9 @@ body {
     font-size: 1.3em;
     color: #FFFFFF;
     margin-bottom: 0.5rem; 
+}
+.skills__item__button:hover {
+    background-color: #2632388c
 }
 .speaking {
     grid-column-start: 1;
@@ -347,6 +357,7 @@ body {
 }
 .contact__img {
     height: 37em;
+    flex-shrink: 1;
 }
 .contact__img img {
     height: 100%;
@@ -354,6 +365,7 @@ body {
 }
 .contact__text {
     flex: 1;
+    flex-shrink: 2;
     display: flex;
     align-items: center;
 }
@@ -384,6 +396,7 @@ body {
     border-radius: 10px;
 }
 .contact__button {
+    box-sizing: border-box;
     flex: 1;
     padding: 1.5rem 2rem;    
     background: #263238;
@@ -391,6 +404,9 @@ body {
     font-weight: 500;
     font-size: 1.4em;
     color: #FFFFFF;
+}
+.contact__button:hover {
+    background-color: #2632388c
 }
 
 /*FOOTER*/
@@ -416,6 +432,9 @@ footer {
     font-weight: 400;
     font-size: 1.7em;
     color: #8F95A5;
+}
+.footer__item a:hover {
+    color: #1b2429;
 }
 .dot__footer {
     width: 5px;
