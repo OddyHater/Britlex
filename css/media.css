@@ -40,6 +40,7 @@
         border-radius: 7px;
         padding: 1rem 4rem;
     }
+    /*LEARN*/
 
     /*SKILLS*/
     .skills__wraper {
@@ -87,6 +88,7 @@
         grid-row-start: 2;
         grid-row-end: 3;
     }
+    /*SKILLS*/
 
     /*ABOUT*/
     .about__wraper {
@@ -102,6 +104,7 @@
     .about__numbertext {
         font-size: 2em;
     }
+    /*ABOUT*/
 
     /*PRICING*/
     .pricing__wraper {
@@ -129,6 +132,7 @@
         font-size: 2em;
         padding: 0 1.5rem;
     }
+    /*PRICING*/
 
     /*CONTACT*/
     .contact__wraper {
@@ -155,6 +159,7 @@
     .contact__button {
         font-size: 2.5em;
     }
+    /*CONTACT*/
 
     /*FOOTER*/
     .footer__wraper {
@@ -167,6 +172,7 @@
     .footer__list {
         justify-content: center;
     }
+    /*FOOTER*/
 }
 @media screen and (max-width: 380px){
     .main__container {
@@ -181,6 +187,7 @@
         align-items: center;
         gap: 1rem;
     }
+    /*ABOUT*/
 
     /*SKILLS*/
     .skills__wraper {
@@ -222,4 +229,5 @@
         grid-row-start: 4;
         grid-row-end: 5;
     }
+    /*SKILLS*/
 }
