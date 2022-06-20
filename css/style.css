@@ -75,6 +75,9 @@ body {
     font-size: inherit;
     color: #263238;
 }
+.nav__list li:last-child {
+    margin-left: auto;
+}
 .nav__list a {
     font-weight: 600;
     font-size: 1.3em;
@@ -91,8 +94,7 @@ body {
     font-weight: 400;
     font-size: 2.5em;
 }
-.nav__button {
-    margin-left: auto;  
+.nav__button {  
     font-weight: 400;
     font-size: 1.2em;
     color: #000000;
