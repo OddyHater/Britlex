@@ -66,17 +66,17 @@ body {
 /*Технические стили*/
 
 /*НАВИГАЦИЯ*/
+nav {
+    display: flex;
+    justify-content: space-between;
+}
 .nav__list {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2.5em;
     font-weight: 500;
-    font-size: inherit;
     color: #263238;
-}
-.nav__list li:last-child {
-    margin-left: auto;
 }
 .nav__list a {
     font-weight: 600;
@@ -87,14 +87,14 @@ body {
     color: #2632388c;
 }
 .logo {
-    margin-right: auto;    
-}
-.logo a {
     color: rgba(143, 149, 165, 1);
     font-weight: 400;
     font-size: 2.5em;
 }
-.nav__button {  
+.nav__button { 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
     font-weight: 400;
     font-size: 1.2em;
     color: #000000;
