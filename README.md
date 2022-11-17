@@ -1,5 +1,5 @@
 # Britlex
-Britlix responsive+apadtive website
+📖🟢Britlex - Landing with info how to learn a new language. 
 
 Figma: https://www.figma.com/file/J8WSGEuVnnewW10yJqeqhY/Landing?node-id=0%3A1
 
